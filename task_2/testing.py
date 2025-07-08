@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 import numpy as np
 from PIL import Image, ImageOps
 
-# CNN architecture (took help of ChatGPT to adjust parameters)
+# CNN architecture
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
